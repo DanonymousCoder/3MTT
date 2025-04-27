@@ -208,11 +208,37 @@ footer .top {
     color: black;
 }
 
-footer .logo {
+footer p.logo {
     color: black;
-    font-size: 25px;
+    font-size: 40px;
 }
 
 footer .top p {
     font-size: 20px;
+}
+
+footer .top a {
+    color: chocolate;
+}
+
+footer .bottom {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer .bottom p {
+    font-size: 20px;
+    color: black;
+}
+
+@media (max-width: 430px) {
+    .header-cont {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+    }
 }
