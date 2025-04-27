@@ -45,11 +45,11 @@ header {
     padding: 0px 30px;
 }
 
-header .logo {
+.logo {
     display: flex;
     justify-content: flex-start;
     color: #FFFFFF;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav ul {
@@ -58,13 +58,32 @@ nav ul {
     gap: 2em;
 }
 
+nav ul a {
+    font-size: 18px;
+    color: #FFFFFF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1.5;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 80px;
+    outline: none;
+}
+
+/*
+    Login Button
+*/
+.have-bg {
+    background-color: #FFFFFF;
+    color: rgb(177, 58, 58);
+}
+
 main {
     width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 70px;
+    margin-top: 170px;
 }
 
 section.about {
@@ -91,4 +110,109 @@ section.about .right h5 {
 section.about .right p {
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section.hobbies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 120px;
+    gap: 3em;
+}
+
+section.hobbies h3 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section.hobbies ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    width: 100%;
+}
+
+section.hobbies ul li {
+    width: 25%;
+    background-color: rgb(177, 58, 58);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    padding: 40px 20px;
+    color: #FFFFFF;
+}
+
+section.hobbies ul li i {
+    font-size: 40px;
+}
+
+section.hobbies ul li h4 {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section.hobbies ul li p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section.cta {
+    width: 100%;
+    margin-top: 100px;
+    background-color: rgb(177, 58, 58);
+    height: 220px;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.cta h4 {
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section.cta a {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 80px;
+}
+
+footer {
+    margin-top: 130px;
+    width: 100%;
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+footer .top {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+footer .logo {
+    color: black;
+    font-size: 25px;
+}
+
+footer .top p {
+    font-size: 20px;
 }
