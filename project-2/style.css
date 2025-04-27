@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+    GLOBAL STYLINGS
+*/
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*
+    GLOBAL STYLINGS END
+*/
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-cont {
+    background-color: rgb(177, 58, 58);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 83%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+header .logo {
+    display: flex;
+    justify-content: flex-start;
+    color: #FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+main {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+section.about {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+section.about .right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+section.about .right h5 {
+    font-size: 25px;
+    letter-spacing: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section.about .right p {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
