@@ -236,9 +236,14 @@ footer .bottom p {
 @media (max-width: 430px) {
     .header-cont {
         width: 100%;
+        flex-direction: column;
     }
 
     header {
         width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
     }
 }
