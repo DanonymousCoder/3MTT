@@ -52,7 +52,7 @@ header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-    {
+nav ul {
     display: flex;
     align-items: center;
     gap: 2em;
@@ -243,7 +243,90 @@ footer .bottom p {
         width: 100%;
     }
 
+    .logo h1 {
+        font-size: 15px;
+    }
+
+    nav ul {
+        gap: 1em;
+    }
+
+    nav ul a {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+
+    main {
+        margin-top: 100px;
+    }
+
+    section.about {
+        flex-direction: column;
+        gap: 3em;
+    }
+
+    section.about .left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    section.about .left img {
+        width: 100%;
+    }
+
+    section.about .right {
+        width: 100%;
+    }
+
+    section.about .right h5 {
+        font-size: 22px;
+        letter-spacing: 2;
+    }
+
+    section.hobbies ul {
+        flex-wrap: wrap;
+    }
+
+    section.hobbies ul li {
+        width: 100%;
+    }
+
+    section.cta h4 {
+        text-align: center;
+    }
+
+    footer {
+        height: 200px;
+    }
+
+    footer .top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5em;
+    }
+
+    footer .bottom p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 375px) {
     nav ul {
         flex-direction: column;
+        gap: 1.5em;
+    }
+
+    section.about .right h5 {
+        font-size: 18px;
+    }
+
+    section.about .right p {
+        font-size: 15px;
+    }
+
+    section.cta h4 {
+        font-size: 21px;
     }
 }
